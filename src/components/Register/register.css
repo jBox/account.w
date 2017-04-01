@@ -1,0 +1,11 @@
+.register-page {
+    width: 356px;
+    margin: 20px auto;
+}
+
+.register-page .nav-tab {
+    padding-bottom: 30px;
+}
+.register-page .register-btn {
+    padding: 35px 0 0px;
+}

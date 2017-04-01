@@ -1,0 +1,16 @@
+.login-page {
+    width: 356px;
+    margin: 20px auto;
+}
+
+.login-page .nav-tab {
+    padding-bottom: 30px;
+}
+
+.login-page .remember-me-checkbox {
+    padding: 20px 0 0px;
+}
+
+.login-page .sign-in-btn {
+    padding: 35px 0 0px;
+}

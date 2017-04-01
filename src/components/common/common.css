@@ -1,0 +1,83 @@
+ul.link-tabs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.link-tabs .link-tab {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul.link-tabs .link-tab:last-child {
+    margin-right: 0;
+}
+
+ul.link-tabs .link-tab span {
+    padding: 5px 20px 15px;
+    border-bottom: 3px solid;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul.link-tabs .link-tab .link {
+    color: darkgray;
+    padding: 5px 20px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul.link-tabs .link-tab .link:hover, ul.link-tabs .link-tab .link:active {
+    color: darkgray;
+    text-decoration: none;
+    border-bottom: 3px solid;
+}
+
+.project-card {
+    padding: 10px 0 15px;
+}
+
+.project-card .project-item {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.project-card .project-item span {
+    color: gray;
+}
+
+.project-card .project-item span::after {
+    color: gray;
+    content: ":";
+    padding-right: 5px;
+}
+
+.project-card .project-item code {
+    color: dodgerblue;
+}
+
+.project-card .project-avatars {
+    display: inline-block;
+}
+.project-card .project-avatars .name-avatar {
+    color: rgb(255, 255, 255);
+    background-color: rgb(188, 188, 188);
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.project-card .project-avatars .avatar-icon {
+    margin-right: 5px;
+}
+.project-card .project-avatars .avatar-icon:last-child {
+    margin-right: 0;
+}

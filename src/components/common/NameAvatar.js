@@ -11,7 +11,7 @@ export default class NameAvatar extends Component {
         const { name, className } = this.props;
         const firstLetter = name.length > 0 ? name[0] : "";
         return (
-            <div className={classNames(className, "name-avatar")} >
+            <div className={classNames(className, "name-avatar")} title={name} >
                 <span>{firstLetter}</span>
             </div>
         );

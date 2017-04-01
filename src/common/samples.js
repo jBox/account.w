@@ -38,7 +38,7 @@ export default [
 				"amount": "362000.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "362000.00 ",
@@ -94,7 +94,7 @@ export default [
 				"amount": "3530000.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "150万         203万",
@@ -150,7 +150,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -205,7 +205,7 @@ export default [
 				"amount": "747000.00 ",
 				"paymentMode": "甲方在7天内向乙方首次支付498000.00元，余下249000.00元待用户回款后10个工作日内付清。",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "498000            83000",
@@ -260,7 +260,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -316,7 +316,7 @@ export default [
 				"amount": "1293200.00 ",
 				"paymentMode": " 甲方于合同签订后付订金275,500.00元，发货前再付775,225.00元，余款待用户回款后统一结算；甲方开具发票给医院后，乙方于一周内开具全票给甲方（不可跨月）",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "275500/775225",
@@ -371,7 +371,7 @@ export default [
 				"amount": "365500.00 ",
 				"paymentMode": "合同签订后预付货款27万元，尾款自医院回款后另行结算。",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "270000",
@@ -426,7 +426,7 @@ export default [
 				"amount": "1490000.00 ",
 				"paymentMode": "合同签订后付全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "1490000",
@@ -481,7 +481,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -536,7 +536,7 @@ export default [
 				"amount": "806850.00 ",
 				"paymentMode": "合同签订后七个工作日内，凭需方与使用单位签订的销售合同，需方预付60%（即￥484110.00）货款给供方，剩余货款在需方收到用户回款后凭全额增值税发票一次性（质保金除外）付款给供方?。?",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "484110/218730",
@@ -592,7 +592,7 @@ export default [
 				"amount": "960526.00 ",
 				"paymentMode": "在乙方收到最终用户回款后，凭销售合同，乙方在扣除相关协议费用后付全额货款（质保金除外）给甲方，甲方提供相应的17%增值税票给乙方",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -647,7 +647,7 @@ export default [
 				"amount": "120000.00 ",
 				"paymentMode": "需方于合同签订后付全款，供方发货并待需方验收合格后开具发票给需方",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "120000.00 ",
@@ -703,7 +703,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -758,7 +758,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -813,7 +813,7 @@ export default [
 				"amount": "396000.00 ",
 				"paymentMode": "396000",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "396000",
@@ -868,7 +868,7 @@ export default [
 				"amount": "2000000.00 ",
 				"paymentMode": "接到货通知收，首次支付100万元，余下待收用户回款后据时结算",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -923,7 +923,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -978,7 +978,7 @@ export default [
 				"amount": "166426.00 ",
 				"paymentMode": "签订合同后，甲方即付货款10万元作为预付款，尾款自医院回款后另行结算。",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -1033,7 +1033,7 @@ export default [
 				"amount": "137210.00 ",
 				"paymentMode": " 签订合同后，甲方即付货款9万元作为预付款；尾款自医院回款后另行结算。",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -1089,7 +1089,7 @@ export default [
 				"amount": "1、1307410；      2、5600",
 				"paymentMode": "P1、合同签订后全款；P2、合同签订后全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "1、1307410；      2、5600",
@@ -1144,7 +1144,7 @@ export default [
 				"amount": "737904.00 ",
 				"paymentMode": "，收用户回款后，首次支付699447元，余下38457元待在验收合格一年后支付",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -1199,7 +1199,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -1254,7 +1254,7 @@ export default [
 				"amount": "197760.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "197760.00 ",
@@ -1309,7 +1309,7 @@ export default [
 				"amount": "111240.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "111240.00 ",
@@ -1364,7 +1364,7 @@ export default [
 				"amount": "230720.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "230720.00 ",
@@ -1419,7 +1419,7 @@ export default [
 				"amount": "222480.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "222480.00 ",
@@ -1474,7 +1474,7 @@ export default [
 				"amount": "218360.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "218360.00 ",
@@ -1529,7 +1529,7 @@ export default [
 				"amount": "98880.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "98880.00 ",
@@ -1584,7 +1584,7 @@ export default [
 				"amount": "407880.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "407880.00 ",
@@ -1639,7 +1639,7 @@ export default [
 				"amount": "350000.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "42474.00 ",
@@ -1694,7 +1694,7 @@ export default [
 				"amount": "",
 				"paymentMode": "1666000+尾款",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "1666000",
@@ -1749,7 +1749,7 @@ export default [
 				"amount": "53000.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "53000.00 ",
@@ -1804,7 +1804,7 @@ export default [
 				"amount": "530000/22000",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "530000/22000",
@@ -1859,7 +1859,7 @@ export default [
 				"amount": "2400000.00 ",
 				"paymentMode": "30%+60%+10%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "720000/1440000/240000",
@@ -1914,7 +1914,7 @@ export default [
 				"amount": "150000.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "150000",
@@ -1969,7 +1969,7 @@ export default [
 				"amount": "156000.00 ",
 				"paymentMode": "全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "156000.00 ",
@@ -2024,7 +2024,7 @@ export default [
 				"amount": "23000.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "23000",
@@ -2080,7 +2080,7 @@ export default [
 				"amount": "540000.00 ",
 				"paymentMode": "全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "540000",
@@ -2135,7 +2135,7 @@ export default [
 				"amount": "1961200.00 ",
 				"paymentMode": "分批",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "1300000\n546706",
@@ -2191,7 +2191,7 @@ export default [
 				"amount": "3800000.00 ",
 				"paymentMode": "30%+60%+10%",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "1140000",
@@ -2246,7 +2246,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -2301,7 +2301,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -2356,7 +2356,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -2411,7 +2411,7 @@ export default [
 				"amount": "26400\n31200\n33000",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "否",
+				"isAllReceiptsBack": "否",
 				"payments": [
 					{
 						"amount": "26400\n31200\n33000",
@@ -2466,7 +2466,7 @@ export default [
 				"amount": "2841627.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "2841627.00 ",
@@ -2521,7 +2521,7 @@ export default [
 				"amount": "2123300.00 ",
 				"paymentMode": "首次支付1467000元，656300尾款待用户回款后支付。",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "1467000",
@@ -2576,7 +2576,7 @@ export default [
 				"amount": "120750\n30000",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "120750\n30000",
@@ -2631,7 +2631,7 @@ export default [
 				"amount": "101000.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "101000.00 ",
@@ -2686,7 +2686,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -2741,7 +2741,7 @@ export default [
 				"amount": "800000.00 ",
 				"paymentMode": "分批",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "650000",
@@ -2796,7 +2796,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -2851,7 +2851,7 @@ export default [
 				"amount": "2150500.00 ",
 				"paymentMode": "分批",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "1630000\n394000",
@@ -2906,7 +2906,7 @@ export default [
 				"amount": "193000.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "193000.00 ",
@@ -2961,7 +2961,7 @@ export default [
 				"amount": "68000；          273000；         65000；             30000 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -3016,7 +3016,7 @@ export default [
 				"amount": "4790000.00 ",
 				"paymentMode": "350万元+129万元",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -3071,7 +3071,7 @@ export default [
 				"amount": "50000.00 ",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "50000",
@@ -3126,7 +3126,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -3181,7 +3181,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -3236,7 +3236,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -3291,7 +3291,7 @@ export default [
 				"amount": "530000.00 ",
 				"paymentMode": "330000+200000",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "330000\n200000",
@@ -3346,7 +3346,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -3401,7 +3401,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -3456,7 +3456,7 @@ export default [
 				"amount": "119720\n35000",
 				"paymentMode": "100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "119720\n35000",
@@ -3511,7 +3511,7 @@ export default [
 				"amount": "287000\n9400\n8000",
 				"paymentMode": "商务部调拨\n商务部调拨\n100%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "287000\n9400\n8000",
@@ -3566,7 +3566,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -3621,7 +3621,7 @@ export default [
 				"amount": "777000.00 ",
 				"paymentMode": "付全款",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -3676,7 +3676,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -3731,7 +3731,7 @@ export default [
 				"amount": "320000.00 ",
 				"paymentMode": "付全款",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -3786,7 +3786,7 @@ export default [
 				"amount": "48000.00 ",
 				"paymentMode": "330000\n150000",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "330000\n94000\n56000",
@@ -3841,7 +3841,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -3896,7 +3896,7 @@ export default [
 				"amount": "260000",
 				"paymentMode": "付全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "260000.00 ",
@@ -3951,7 +3951,7 @@ export default [
 				"amount": "340000.00 ",
 				"paymentMode": "付全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "340000",
@@ -4006,7 +4006,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -4062,7 +4062,7 @@ export default [
 				"amount": "350000.00 ",
 				"paymentMode": "付全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "350000",
@@ -4117,7 +4117,7 @@ export default [
 				"amount": "3250000.00 ",
 				"paymentMode": "30%\n70%",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "975000\n2275000",
@@ -4172,7 +4172,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -4227,7 +4227,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -4282,7 +4282,7 @@ export default [
 				"amount": "133000.00 ",
 				"paymentMode": "付全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "133000.00 ",
@@ -4337,7 +4337,7 @@ export default [
 				"amount": "成本在16QSXM21YM069P",
 				"paymentMode": "付全款",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "",
@@ -4392,7 +4392,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -4448,7 +4448,7 @@ export default [
 				"amount": "99900.00 ",
 				"paymentMode": "付全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "99900.00 ",
@@ -4503,7 +4503,7 @@ export default [
 				"amount": "439000",
 				"paymentMode": "付全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "439000",
@@ -4559,7 +4559,7 @@ export default [
 				"amount": "14000.00 ",
 				"paymentMode": "付全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "14000",
@@ -4615,7 +4615,7 @@ export default [
 				"amount": "8700.00 ",
 				"paymentMode": "付全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "8700",
@@ -4670,7 +4670,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -4725,7 +4725,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -4780,7 +4780,7 @@ export default [
 				"amount": "283000.00 ",
 				"paymentMode": "付全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "283000.00 ",
@@ -4836,7 +4836,7 @@ export default [
 				"amount": "160000.00 ",
 				"paymentMode": "付全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "160000.00 ",
@@ -4891,7 +4891,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -4946,7 +4946,7 @@ export default [
 				"amount": "3299880.00 ",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -5001,7 +5001,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -5056,7 +5056,7 @@ export default [
 				"amount": "848300.00 ",
 				"paymentMode": "首次支付??598800.00元货款，余下??249500.00在收用户尾款后10天内付清。",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "598800",
@@ -5111,7 +5111,7 @@ export default [
 				"amount": "180000.00 ",
 				"paymentMode": "付全款",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -5166,7 +5166,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -5221,7 +5221,7 @@ export default [
 				"amount": "72900.00 ",
 				"paymentMode": "不垫资/12800付全款",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "12800",
@@ -5276,7 +5276,7 @@ export default [
 				"amount": "246000.00 ",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -5331,7 +5331,7 @@ export default [
 				"amount": "2113100.00 ",
 				"paymentMode": "合同签订后，首次支付1,453,985.00元，余下659,115.00元待收用户回款后10天内付清。卖方收买方首次付款20天内交货，并提供全额增值税专用发票给买方。",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "1453985",
@@ -5386,7 +5386,7 @@ export default [
 				"amount": "1200000.00 ",
 				"paymentMode": "合同签订后，买方在装机前先支付100%货款（即120万元）给卖方",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "1200000",
@@ -5441,7 +5441,7 @@ export default [
 				"amount": "370000.00 ",
 				"paymentMode": "合同签定后付全款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "370000",
@@ -5496,7 +5496,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -5551,7 +5551,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -5606,7 +5606,7 @@ export default [
 				"amount": "1300000.00 ",
 				"paymentMode": "合同签订付100万，余下待收用户回款后10天内付款。",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "1000000",
@@ -5661,7 +5661,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -5717,7 +5717,7 @@ export default [
 				"amount": "358020.00 ",
 				"paymentMode": "甲方在收到用户95%货款后7天内向乙方付清全款358020元。",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -5773,7 +5773,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -5828,7 +5828,7 @@ export default [
 				"amount": "1428000.00 ",
 				"paymentMode": "合同签订后5个工作日内，甲方预付107万元到乙方指定账户，余下35.8万元待收用户回款后10天内付清。",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -5884,7 +5884,7 @@ export default [
 				"amount": "100800.00 ",
 				"paymentMode": "合同签订后3个工作日内付全款，卖方收全款后交货并提供全额增值税专用发票给甲方。",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "100800",
@@ -5939,7 +5939,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -5994,7 +5994,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -6050,7 +6050,7 @@ export default [
 				"amount": "848300",
 				"paymentMode": "合同签订后，甲方向乙方预付??598800.00元货款，余下??249500.00在收用户尾款后10天内付清。",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "598800.00 ",
@@ -6106,7 +6106,7 @@ export default [
 				"amount": "329800.00 ",
 				"paymentMode": " 合同签订后，甲方向乙方预付???232800.00元货款，余下?97000.00在收用户尾款后10天内付清。",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "232800.00\n",
@@ -6161,7 +6161,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -6217,7 +6217,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -6273,7 +6273,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -6328,7 +6328,7 @@ export default [
 				"amount": "2750000       1000000",
 				"paymentMode": "合同签订后，甲方先向乙方预付60%货款，余下40%尾款在医院验收完成且回款",
 				"isAllPayed": "否",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "1500000",
@@ -6383,7 +6383,7 @@ export default [
 				"amount": "280000.00 ",
 				"paymentMode": "一次性付清全部货款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "280000.00 ",
@@ -6438,7 +6438,7 @@ export default [
 				"amount": "400000",
 				"paymentMode": "一次性付清全部货款",
 				"isAllPayed": "是",
-				"isAllpaymentCollectionBack": "是",
+				"isAllReceiptsBack": "是",
 				"payments": [
 					{
 						"amount": "400000.00 ",
@@ -6493,7 +6493,7 @@ export default [
 				"amount": "USD 280000",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -6548,7 +6548,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -6603,7 +6603,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -6658,7 +6658,7 @@ export default [
 				"amount": "678300.00 ",
 				"paymentMode": "首次预付466830.00元，余下211470.00元待收用户货款后10天内支付。",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -6713,7 +6713,7 @@ export default [
 				"amount": "",
 				"paymentMode": "",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",
@@ -6768,7 +6768,7 @@ export default [
 				"amount": "673200.00 ",
 				"paymentMode": "甲方首次向乙方预付货款403920元，余款269280元待用户回款后统一结算。",
 				"isAllPayed": "",
-				"isAllpaymentCollectionBack": "",
+				"isAllReceiptsBack": "",
 				"payments": [
 					{
 						"amount": "",

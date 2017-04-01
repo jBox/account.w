@@ -34,6 +34,28 @@ export default class ProjectCard extends Component {
         this.setState({ expanded: false });
     };
 
+    getBasicInfo = () => {
+        return (<div className="project-basic-info">
+            <span className="project-info-title"></span>
+        </div>)
+    }
+
+    getSaleInfo = () => {
+
+        return (<div className="project-sale-info">
+            <span className="project-info-title"></span>
+        </div>)
+    }
+
+    getProcurementsInfo = () => {
+
+        return (<div className="project-procurements-info">
+            <div className="project-procurement-info">
+                <span className="project-info-title"></span>
+            </div>
+        </div>)
+    }
+
     render() {
         const { project } = this.props;
         return (
@@ -55,7 +77,11 @@ export default class ProjectCard extends Component {
                         <div className="project-item"><span>开票日期</span><code>{project.sale.billingDate}</code></div>
                         <div className="project-item"><span>开票金额</span><code>￥{project.sale.billingAmount}</code></div>
                     </CardText>
-                    <CardText expandable={true}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</CardText>
+                    <CardText expandable={true}>
+                        {this.getBasicInfo()}
+                        {this.getSaleInfo()}
+                        {this.getProcurementsInfo()}
+                    </CardText>
                     <CardActions>
                         <FlatButton label="客户回款" primary={true} onTouchTap={this.handleExpand} />
                         <FlatButton label="采购付款" primary={true} onTouchTap={this.handleExpand} />

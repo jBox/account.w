@@ -28,11 +28,9 @@ export default class Report extends Component {
                     </div>
                 </div>
                 <div className="container">
-                    <Switch>
-                        {routes.map((route, i) => (
-                            <RouteWithSubRoutes key={i} {...route} />
-                        ))}
-                    </Switch>
+                    {routes.map((route, i) => (
+                        <RouteWithSubRoutes key={i} {...route} />
+                    ))}
                 </div>
             </div>
         );

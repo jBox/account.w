@@ -65,8 +65,8 @@ export default class ProjectCard extends Component {
                         title={<span>{project.sale.projectName} (<code>{project.contractId}</code>)</span>}
                         subtitle={project.sale.client}
                         avatar={(<div className="project-avatars">
-                            {project.logistics.map(logistic => (<NameAvatar className="avatar-icon" name={logistic} />))}
-                            {project.principals.map(principal => (<NameAvatar className="avatar-icon" name={principal} />))}
+                            {project.logistics.map(logistic => (<NameAvatar className="avatar-icon" name={logistic} key={logistic} />))}
+                            {project.principals.map(principal => (<NameAvatar className="avatar-icon" name={principal} key={principal} />))}
                         </div>)}
                         actAsExpander={true}
                         showExpandableButton={true}

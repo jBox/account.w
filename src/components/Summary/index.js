@@ -1,88 +1,50 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 import './summary.css';
-import { Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn } from 'material-ui/Table';
 import ProjectCard from '../common/ProjectCard';
-import samples from '../../common/samples';
+import { getProjectsByDate } from "../../redux/actions";
+import { project } from "../../redux/selectors/projects";
 
+class Summary extends Component {
+    state = {}
 
-export default class Summary extends Component {
-    state = {
-        dataSource: []
-    }
-
-    handleUpdateInput = (value) => {
-        this.setState({
-            dataSource: [
-                value,
-                value + value,
-                value + value + value,
-            ],
-        });
+    componentDidMount() {
+        const { queryProjects } = this.props;
+        queryProjects("2016");
     }
 
     render() {
-        return (<div className="home-page">
-            <ProjectCard project={samples[0]}/>
-            <ProjectCard project={samples[1]} />
-            <ProjectCard project={samples[2]} />
-            <ProjectCard project={samples[3]} />
-            <ProjectCard project={samples[4]} />
-            <ProjectCard project={samples[5]} />
-            <ProjectCard project={samples[6]} />
-            <ProjectCard project={samples[7]} />
-            <ProjectCard project={samples[8]} />
-            <ProjectCard project={samples[9]} />{/*
-            <Table>
-                <TableHeader adjustForCheckbox={false} displaySelectAll={false}>
-                    <TableRow>
-                        <TableHeaderColumn>ID</TableHeaderColumn>
-                        <TableHeaderColumn>Name</TableHeaderColumn>
-                        <TableHeaderColumn>Status</TableHeaderColumn>
-                    </TableRow>
-                </TableHeader>
-                <TableBody displayRowCheckbox={false}>
-                    <TableRow>
-                        <TableRowColumn>1</TableRowColumn>
-                        <TableRowColumn>John Smith</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
-                    <TableRow>
-                        <TableRowColumn>2</TableRowColumn>
-                        <TableRowColumn>Randal White</TableRowColumn>
-                        <TableRowColumn>Unemployed</TableRowColumn>
-                    </TableRow>
-                    <TableRow>
-                        <TableRowColumn>3</TableRowColumn>
-                        <TableRowColumn>Stephanie Sanders</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
-                    <TableRow>
-                        <TableRowColumn>4</TableRowColumn>
-                        <TableRowColumn>Steve Brown</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
-                    <TableRow>
-                        <TableRowColumn>4</TableRowColumn>
-                        <TableRowColumn>Steve Brown</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
-                    <TableRow>
-                        <TableRowColumn>4</TableRowColumn>
-                        <TableRowColumn>Steve Brown</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
-                    <TableRow>
-                        <TableRowColumn>4</TableRowColumn>
-                        <TableRowColumn>Steve Brown</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
-                    <TableRow>
-                        <TableRowColumn>4</TableRowColumn>
-                        <TableRowColumn>Steve Brown</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
-                </TableBody>
-            </Table>*/}
-        </div>);
+        const { projects } = this.props;
+        if (projects) {
+            return (<div className="home-page">
+                <ProjectCard project={projects[0]} key={0} />
+                <ProjectCard project={projects[1]} key={1} />
+                <ProjectCard project={projects[2]} key={2} />
+                <ProjectCard project={projects[3]} key={3} />
+                <ProjectCard project={projects[4]} key={4} />
+                <ProjectCard project={projects[5]} key={5} />
+                <ProjectCard project={projects[6]} key={6} />
+                <ProjectCard project={projects[7]} key={7} />
+                <ProjectCard project={projects[8]} key={8} />
+                <ProjectCard project={projects[9]} key={9} />
+            </div>);
+        } else {
+            return (<div>NO DATA</div>);
+        }
     }
 }
+
+const mapStateToProps = (state, props) => {
+    return {
+        projects: project(state, props)
+    }
+}
+
+const mapDispatchToProps = (dispatch, props) => {
+    return {
+        queryProjects: bindActionCreators(getProjectsByDate, dispatch)
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Summary);

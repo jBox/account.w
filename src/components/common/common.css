@@ -48,16 +48,19 @@ ul.link-tabs .link-tab .link:hover, ul.link-tabs .link-tab .link:active {
 
 .project-card .project-item span {
     color: gray;
+    line-height: 24px;
 }
 
 .project-card .project-item span::after {
     color: gray;
     content: ":";
     padding-right: 5px;
+    line-height: 24px;
 }
 
 .project-card .project-item code {
     color: dodgerblue;
+    line-height: 24px;
 }
 
 .project-card .project-avatars {
@@ -80,4 +83,8 @@ ul.link-tabs .link-tab .link:hover, ul.link-tabs .link-tab .link:active {
 }
 .project-card .project-avatars .avatar-icon:last-child {
     margin-right: 0;
+}
+
+.project-card .project-info-title{
+    padding: 8px 0 5px;
 }

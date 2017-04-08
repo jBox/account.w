@@ -67,6 +67,14 @@ export default class Create extends Component {
     });
   }
 
+  handleNewReceiptPlanOnScroll = () => {
+    this.handleNewPlanPaymentCollection();
+    setTimeout(() => {
+      const { plansTitle } = this.refs;
+      plansTitle.scrollIntoView(true);
+    }, 100);
+  }
+
   handleDelPlanPaymentCollection = (payment) => {
     const id = payment.id;
     const oldPlans = this.state.planPaymentCollection;
@@ -88,6 +96,14 @@ export default class Create extends Component {
         id: ++this.actualIndex
       }])
     });
+  }
+
+  handleNewReceiptActualOnScroll = () => {
+    this.handleNewActualPaymentCollection();
+    setTimeout(() => {
+      const { actualsTitle } = this.refs;
+      actualsTitle.scrollIntoView(true);
+    }, 100);
   }
 
   handleDelActualPaymentCollection = (payment) => {
@@ -244,7 +260,7 @@ export default class Create extends Component {
           <Sale sale={sale} dateTimeFormat={DateTimeFormat} onChange={this.handleSaleChanged} />
 
           {planPaymentCollection.length > 0 && (
-            <h3 className="info-sub-group-header">计划回款</h3>
+            <h3 className="info-sub-group-header" ref="plansTitle">计划回款</h3>
           )}
           {planPaymentCollection.map((plan, index) => {
             return (<PaymentCollection key={`plan-${index}`}
@@ -253,8 +269,19 @@ export default class Create extends Component {
               onDelete={this.handleDelPlanPaymentCollection}
               onChange={this.handlePlanPaymentCollectionChanged} />)
           })}
+          {planPaymentCollection.length > 0 && (
+            <div className="additional-actions">
+              <RaisedButton
+                label="增加计划回款"
+                secondary={true}
+                style={styles.button}
+                onClick={this.handleNewPlanPaymentCollection}
+                icon={<ContentAdd />}
+              />
+            </div>
+          )}
           {actualPaymentCollection.length > 0 && (
-            <h3 className="info-sub-group-header">实际回款</h3>
+            <h3 className="info-sub-group-header" ref="actualsTitle">实际回款</h3>
           )}
           {actualPaymentCollection.map((actual, index) => {
             return (<PaymentCollection key={`actual-${index}`}
@@ -263,6 +290,17 @@ export default class Create extends Component {
               onDelete={this.handleDelActualPaymentCollection}
               onChange={this.handleActualPaymentCollectionChanged} />)
           })}
+          {actualPaymentCollection.length > 0 && (
+            <div className="additional-actions">
+              <RaisedButton
+                label="增加实际回款"
+                secondary={true}
+                style={styles.button}
+                onClick={this.handleNewActualPaymentCollection}
+                icon={<ContentAdd />}
+              />
+            </div>
+          )}
           {procurements.map((procurement, index) => {
             return (<div key={`procurement-${index}`}>
               <h2 className="info-group-header">#{index + 1} 项目采购信息</h2>
@@ -276,20 +314,20 @@ export default class Create extends Component {
           <Row>
             <Col xs={12} md={12}>
               <div className="additional-actions">
-                <RaisedButton
+                {planPaymentCollection.length === 0 && (<RaisedButton
                   label="增加计划回款"
                   secondary={true}
                   style={styles.button}
-                  onClick={this.handleNewPlanPaymentCollection}
+                  onClick={this.handleNewReceiptPlanOnScroll}
                   icon={<ContentAdd />}
-                />
-                <RaisedButton
+                />)}
+                {actualPaymentCollection.length === 0 && (<RaisedButton
                   label="增加实际回款"
                   secondary={true}
                   style={styles.button}
-                  onClick={this.handleNewActualPaymentCollection}
+                  onClick={this.handleNewReceiptActualOnScroll}
                   icon={<ContentAdd />}
-                />
+                />)}
                 <RaisedButton
                   label="增加采购"
                   secondary={true}
